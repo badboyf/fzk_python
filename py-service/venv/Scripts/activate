@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'F:\self-wordspace\for-python\fzk_python\py-service\venv'; else echo '/F/self-wordspace/for-python/fzk_python/py-service/venv'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'D:\workspace-python\fzk_python\py-service\venv'; else echo '/D/workspace-python/fzk_python/py-service/venv'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

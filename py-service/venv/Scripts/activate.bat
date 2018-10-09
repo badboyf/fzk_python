@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=F:\self-wordspace\for-python\fzk_python\py-service\venv"
+set "VIRTUAL_ENV=D:\workspace-python\fzk_python\py-service\venv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
